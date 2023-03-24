@@ -16,5 +16,5 @@ if (EXAMPLE)
 						PRIVATE
 						$<$<CXX_COMPILER_ID:MSVC>:/W3 /permissive- /TP>
 						$<$<OR:$<CXX_COMPILER_ID:GNU>,$<CXX_COMPILER_ID:Clang>>:-Wextra -Wall -Wsign-conversion -Wfloat-equal -pedantic -Wredundant-decls -Wshadow -Wpointer-arith -O3>)
-	target_link_libraries(long_arrow_example PRIVATE cider)
+	target_link_libraries(long_arrow_example PRIVATE long_arrow)
 endif()					   
