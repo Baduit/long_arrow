@@ -4,7 +4,7 @@
 #include <type_traits>
 #include <utility>
 
-namespace cider 
+namespace long_arrow 
 {
 
-} // namespace cider 
+} // namespace long_arrow 
