@@ -1,7 +1,5 @@
 #include <iostream>
-
 #include <long_arrow/long_arrow.hpp>
-
 
 LONG_ARROW_GENERATE_OPERATOR_POST_DECREMENT(std::string)
 
@@ -19,8 +17,6 @@ constexpr std::string concat_rvalue(std::string&& str, char c)
 {
 	return std::move(str += c);
 }
-
-
 
 int main()
 {
